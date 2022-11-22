@@ -30,7 +30,7 @@ header{
 
 .header-nav__item {
   display: inline-block;
-  margin-top: 1.5em;
+  margin-top: 3em;
   margin-bottom: 8px;
   margin-right: 8px;
   margin-left: 8px;
@@ -151,7 +151,7 @@ main{
   color: rgb(250, 44, 89);
   cursor:pointer;
   position: fixed;
-  bottom: 2em;
+  bottom: 5em;
   right: 2em;
   padding: 5px;
   border-radius: 5px;
@@ -168,6 +168,49 @@ main{
 
 /* Cuando clickeamos el elemento */
 .ir-arriba a:active{
+  color:rgb(241, 237, 230);
+  background-color:rgb(250, 44, 89);
+}
+
+.ir-abajo{
+  display: inline-block;
+  background: rgb(241, 237, 230);
+  color: rgb(250, 44, 89);
+  cursor:pointer;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  padding: 5px;
+  border-radius: 5px;
+  font-size:13px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.ir-abajo-b{
+  display: inline-block;
+  background: rgb(241, 237, 230);
+  color: rgb(250, 44, 89);
+  cursor:pointer;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  padding: 5px;
+  border-radius: 5px;
+  font-size:13px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.ir-abajo a:hover{
+  color:rgb(250, 44, 89);
+  background-color:rgb(241, 237, 230);
+}
+
+/* Cuando clickeamos el elemento */
+.ir-abajo a:active{
   color:rgb(241, 237, 230);
   background-color:rgb(250, 44, 89);
 }
