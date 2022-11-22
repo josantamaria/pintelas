@@ -11,7 +11,7 @@ html {
 
 body {
   margin: 0px;
-  background-color: darkslategray;
+  background-color: rgb(250, 44, 89);
 }
 
 header{
@@ -21,10 +21,10 @@ header{
 .header-nav{
   margin: 0;
   padding: 0px;
-  text-align: right;
+  text-align: center;
   border-width: 0px;
   list-style: none;
-  background-color:darkslategray;
+  background-color:rgb(250, 44, 89);
 }
 
 .header-nav__item {
@@ -47,14 +47,14 @@ header{
 /* pseudoclases, definen el estilo de un estado, se llama con : */
 /* Cuando el mouse está sobre el elemento */
 .header-nav__item a:hover{
-  color:darkslategray;
+  color:rgb(250, 44, 89);
   background-color:rgb(241, 237, 230);
 }
 
 /* Cuando clickeamos el elemento */
 .header-nav__item a:active{
   color:rgb(241, 237, 230);
-  background-color:darkslategray;
+  background-color:rgb(250, 44, 89);
 }
 
 main{
@@ -67,26 +67,63 @@ main{
 
 .imagen-fondo1{
   margin: 0;
-  background-image: url(./fondo.png);
-  height: 50em;
+  background-image: url(./1-Inicio-web.png);
+  height: 25em;
+  /* width: 100%; */
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: ; */
   background-size: 100%;
-  scroll-behavior: smooth;  
+  /* scroll-behavior: smooth;   */
   }
 
 .imagen-fondo2{
   margin: 0;
-  background-image: url(./fondo2.jpg);
-  height: 50em;
-  width: 100%;
+  background-image: url(./2-Infog1-ciencia-web.png);
+  /* height: 50em; */
+  height: 35em;
+  /* width: 100%; */
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: 100%;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth;   */
   }
 
   .imagen-fondo3{
+    margin: 0;
+    background-image: url(./3-Infog2-Proced-web.png);
+    /* height: 50em; */
+    height: 37em;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100%;
+    /* scroll-behavior: smooth;   */
+    }
+
+    .imagen-fondo4{
+      margin: 0;
+      background-image: url(./4-Infog3-estad-web.png);
+      /* height: 50em; */
+      height: 30em;
+      /* width: 100%; */
+      background-repeat: no-repeat;
+      /* background-attachment: fixed; */
+      background-size: 100%;
+      /* scroll-behavior: smooth;   */
+      }
+
+    .imagen-fondo5{
+      margin: 0;
+      background-image: url(./5-Creditos-web.png);
+      /* height: 50em; */
+      height: 33em;
+      /* width: 100%; */
+      background-repeat: no-repeat;
+      /* background-attachment: fixed; */
+      background-size: 100%;
+      /* scroll-behavior: smooth;   */
+      }
+  /* .imagen-fondo3{
     margin: 0;
     background-image: url(./fondo3.jpg);
     height: 50em;
@@ -95,9 +132,9 @@ main{
     background-attachment: fixed;
     background-size: 100%;
     scroll-behavior: smooth;
-    }
+    } */
 
-.main-fondo1__h{
+/* .main-fondo1__h{
   color:rgb(241, 237, 230) ;
   margin: 0;
   padding-top: 1.3em;
@@ -137,4 +174,4 @@ main{
   background: transparent;
   letter-spacing: 0.05em;
   font-weight:bolder;
-}
+} */
