@@ -61,7 +61,7 @@ header{
 
 main{
   width: 100%;
-  height: 180em;
+  height: 175em;
   /* border: 5px solid goldenrod; */
   /* 20px de up to down y 35px de left to right */
   padding: 0;
@@ -77,7 +77,7 @@ main{
   /* background-attachment: ; */
   background-size: 100%;
   /* scroll-behavior: smooth;   */
-  }
+}
 
 .imagen-fondo2{
   margin: 0;
@@ -89,92 +89,72 @@ main{
   /* background-attachment: fixed; */
   background-size: 100%;
   /* scroll-behavior: smooth;   */
-  }
+ }
 
-  .imagen-fondo3{
-    margin: 0;
-    background-image: url(./3-Infog2-Proced-web.png);
-    /* height: 50em; */
-    height: 37em;
-    /* width: 100%; */
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: 100%;
-    /* scroll-behavior: smooth;   */
-    }
-
-    .imagen-fondo4{
-      margin: 0;
-      background-image: url(./4-Infog3-estad-web.png);
-      /* height: 50em; */
-      height: 33em;
-      /* width: 100%; */
-      background-repeat: no-repeat;
-      /* background-attachment: fixed; */
-      background-size: 100%;
-      /* scroll-behavior: smooth;   */
-      }
-
-    .imagen-fondo5{
-      margin: 0;
-      background-image: url(./5-Creditos-web.png);
-      /* height: 50em; */
-      height: 45em;
-      /* width: 100%; */
-      background-repeat: no-repeat;
-      /* background-attachment: fixed; */
-      background-size: 100%;
-      /* scroll-behavior: smooth;   */
-      }
-  /* .imagen-fondo3{
-    margin: 0;
-    background-image: url(./fondo3.jpg);
-    height: 50em;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    scroll-behavior: smooth;
-    } */
-
-/* .main-fondo1__h{
-  color:rgb(241, 237, 230) ;
+.imagen-fondo3{
   margin: 0;
-  padding-top: 1.3em;
-  width: cover;
-  font-size:180px;
-  font-family: 'Oswald', sans-serif;
-  text-decoration:none; 
-  text-align: center;
-  background: transparent;
-  letter-spacing: 0.05em;
-  font-weight:bolder;
+  background-image: url(./3-Infog2-Proced-web.png);
+  /* height: 50em; */
+  height: 37em;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100%;
+  /* scroll-behavior: smooth;   */
 }
 
-.main-fondo2__h{
-  color:rgb(241, 237, 230) ;
+.imagen-fondo4{
   margin: 0;
-  padding-top: 1.3em;
-  width: cover;
-  font-size:180px;
-  font-family:'Oswald', sans-serif;
-  text-decoration:none; 
-  text-align: center;
-  background: transparent;
-  letter-spacing: 0.05em;
-  font-weight:bolder;
+  background-image: url(./4-Infog3-estad-web.png);
+  /* height: 50em; */
+  height: 33em;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100%;
+  /* scroll-behavior: smooth;   */
+ }
+
+.imagen-fondo5{
+  margin: 0;
+  background-image: url(./5-Creditos-web.png);
+  /* height: 50em; */
+  height: 45em;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100%;
+  /* scroll-behavior: smooth;   */
 }
 
-.main-fondo3__h{
-  color:rgb(241, 237, 230) ;
-  margin: 0;
-  padding-top: 1.3em;
-  width: cover;
-  font-size:180px;
-  font-family:'Oswald', sans-serif;
-  text-decoration:none; 
-  text-align: center;
-  background: transparent;
-  letter-spacing: 0.05em;
-  font-weight:bolder;
-} */
+.ir-arriba{
+  display: inline-block;
+  background: rgb(241, 237, 230);
+  color: rgb(250, 44, 89);
+  cursor:pointer;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  padding: 5px;
+  border-radius: 5px;
+  font-size:13px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.ir-arriba-b{
+  display: inline-block;
+  background: rgb(241, 237, 230);
+  color: rgb(250, 44, 89);
+  cursor:pointer;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  padding: 5px;
+  border-radius: 5px;
+  font-size:13px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
